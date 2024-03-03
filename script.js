@@ -1,9 +1,5 @@
 
 let count=-1;
-
-
-
-
 var loadPost= async()=>{
 
     let count=0;
