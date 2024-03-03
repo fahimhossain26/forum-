@@ -66,6 +66,7 @@
 
 <!-- navber close -->
 
+
 <!-- banner section -->
 
 <div class="hero min-h-screen bg-blue-950 rounded-3xl mt-10    " style="background-image:url(bgbanner.png);">
@@ -92,8 +93,8 @@
         <p class="py-6 text-white">Share your favorite opinion and win and wp forum coffee mug!</p>
         <!-- search option -->
         <div class="join">
-            <input class="input input-bordered join-item" placeholder="Email"/>
-            <button class="btn btn-success join-item rounded-r-full text-white">Search</button>
+            <input id="handelSearch"  class="input input-bordered join-item" placeholder="search"/>
+            <button onclick="handelSearch()" class="btn btn-success join-item rounded-r-full text-white">Search</button>
           </div>
 
        
@@ -111,7 +112,7 @@
  </div>
 
 <!-- lets discuss card section -->
- <div class="flex  lg: grid-cols-2">
+ <div class="flex  grid lg:grid-cols-2 ">
     <!-- left side -->
 <div id="cardContainer">
 
@@ -123,7 +124,7 @@
   <div  id="leftCardContainer" class="w-80 h-90 bg-base-200 rounded-2xl   p-5 ml-10">
     <div class="flex gap-28 mb-3 ">
         <h2>Title</h2>
-        <h2>Mark as Read <span id="itemCount">(0)</span></h2>
+        <h2>Mark as Read( <span id="itemCount"></span>)</h2>
     </div>
     
     <!-- <div class="flex bg-white p-4 rounded-2xl w-72 ">
@@ -164,11 +165,11 @@
 
  <!-- cards news -->
 
- <div id="latestCard" class="grid lg:grid-cols-3">
+ <div id="latestCard" class="grid lg:grid-cols-3 gap-20">
 
     
 
-      <div class="card w-96 bg-base-100 shadow-xl">
+      <!-- <div class="card w-96 bg-base-100 shadow-xl">
         <figure class="px-10 pt-10">
           <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
         </figure>
@@ -194,7 +195,7 @@
             </div>
         </div>
         </div>
-      </div>
+      </div> -->
 
    
 
